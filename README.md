@@ -8,7 +8,10 @@ The JPMML version used is 1.2.
 The first uses version 13.0.1 while the last needs at least 14.0.1.
 
  * NOTE: JPMML does not support functionName="mixed"
-functionName: Could be either "classification" or "regression" depending on the target variable(s). If the model contains categorical and continuous targets, this attribute should be "mixed". In case no targets are present then it should be "clustering". <http://www.dmg.org/v4-2-1/KNN.html >
+
+functionName: Could be either "classification" or "regression" depending on the target variable(s). 
+If the model contains categorical and continuous targets, this attribute should be "mixed". 
+In case no targets are present then it should be "clustering". See  <http://www.dmg.org/v4-2-1/KNN.html>
 
 System Requirements
 -------------------
